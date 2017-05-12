@@ -43,7 +43,7 @@ void task_loader(u8 task_id)
 			gpu_copy_to_tileset(0,box_tiles,0x120,0x2FF);//hey motherfucker! why's 2FF instead of 300???
 			temp = rbox_spawn(rbox_table+2);
 			box_draw(temp,0xE);
-			rboxid_print(temp,2,bottomstring,15,0,0,0);
+			rboxid_print(temp,2,bottomstring,30,0,0,0);
 			string_print();
 			temp = rbox_spawn(rbox_table+4);
 			box_draw(rbox_spawn(rbox_table+3),0xD);
